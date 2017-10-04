@@ -1,3 +1,9 @@
+# config file - a template will be provided
+config.ini
+
+# Spotify .cache-* files
+.cache-*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
