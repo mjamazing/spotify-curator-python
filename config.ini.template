@@ -1,0 +1,24 @@
+; config.ini
+; Template file - replace values with Spotify API
+[AUTHORIZATION]
+SCOPE=playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private
+; Add Spotify API Authorization Info
+CLIENT_ID=
+CLIENT_SECRET=
+REDIRECT_URI=
+
+[USER]
+; Spotify user
+USERNAME=
+
+[PLAYLIST]
+; Name of the playlist to create
+PLAYLIST_NAME=Sample Playlist
+; Artist Names separated by |
+ARTIST_SEEDS=Elvis Presley
+; Tracks separated by | in the format Artist Name>Track Name
+TRACK_SEEDS=Elvis Presley>Jailhouse Rock
+; Genres separated by |
+GENRE_SEEDS=rock
+; Playlist settings in the format 'setting': value
+PLAYLIST_SETTINGS={'min_popularity': 50, 'target_popularity': 80}
